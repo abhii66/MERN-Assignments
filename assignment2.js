@@ -41,6 +41,6 @@ for(let i in employees)
 console.log(employees)
 
 // Change the last mark 95 to 75 of emp  "Sneha"
-//employees.splice(3,
 employees[3].marks[2]=75
+
 console.log(employees)
