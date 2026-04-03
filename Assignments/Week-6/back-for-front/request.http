@@ -1,0 +1,10 @@
+POST http://localhost:6677/employee-api/employees
+Content-Type: application/json
+
+{
+    "name":"lexus",
+    "email":"lexusla@gmail.com",
+    "mobile":9876545678,
+    "designation":"FE DEV",
+    "companyName":"Amazon"
+}
