@@ -1,8 +1,9 @@
 //function def
-function biggest(a,b,c){
-    let big=(a>b)? (a>c? a:c) : (b>c? b:c) //ternary operation
+function biggest(num1,num2,num3){
+    // Nested ternary to evaluate the maximum value
+    let big=(num1>num2)? (num1>num3? num1:num3) : (num2>num3? num2:num3)
     return big
 }
-
-let res=biggest(10,30,20) //function call
+// Execute function and store the result
+let result=biggest(10,30,20)
 console.log(`${res} is biggest number.`)
