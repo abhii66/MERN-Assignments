@@ -22,24 +22,3 @@ let countDown=setInterval(()=>{
         a=a-1 
     }
 },1000)
-
-
-
-
-// setTimeout(()=>{
-//     for(let i=10;i!=0;i--){
-//         console.log(i)
-//     }
-// },1000)
-// for(let i=10;i!=0;i--){
-//     setInterval(()=>{
-//     console.log(i)
-    
-// },1000)
-// }
-
-
-
-// setInterval(()=> {
-//     console.log("Resend OTP")
-// },10000)
